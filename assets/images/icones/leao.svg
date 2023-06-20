@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #125b31;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #81b381;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-3" points="13.5 7.5 14 6.5 16 6 17 8 16 9.5 17.5 14 15.5 15 15.5 18 11.5 20 7.5 18 7.5 15 5.5 14 7 9.5 6 8 7 6 9 6.5 9.5 7.5 13.5 7.5"/>
+  <polygon class="cls-4" points="9.5 13.5 13.5 13.5 11.5 16 9.5 13.5"/>
+  <path class="cls-4" d="m21.5,3.5l-4,1.5,1.5-4.5-6.5,1.5-1,2-1.5-2L4,.5l1.5,4.5L1.5,3.5l2,4-2,6,6,8,4,2,4-2,6-8-2-6,2-4Zm-6,11.5v3l-4,2-4-2v-3l-2-1,1.5-4.5-1-1.5,1-2,2,.5.5,1h4l.5-1,2-.5,1,2-1,1.5,1.5,4.5-2,1Z"/>
+  <polygon class="cls-1" points="13.5 7.5 14 6.5 16 6 17 8 16 9.5 17.5 14 15.5 15 15.5 18 11.5 20 7.5 18 7.5 15 5.5 14 7 9.5 6 8 7 6 9 6.5 9.5 7.5 13.5 7.5"/>
+  <polygon class="cls-1" points="11.5 4 12.5 2 19 .5 17.5 5 21.5 3.5 19.5 7.5 21.5 13.5 15.5 21.5 11.5 23.5 7.5 21.5 1.5 13.5 3.5 7.5 1.5 3.5 5.5 5 4 .5 10 2 11.5 4"/>
+  <line class="cls-1" x1="9.5" y1="10.5" x2="9.5" y2="11.5"/>
+  <line class="cls-1" x1="13.5" y1="10.5" x2="13.5" y2="11.5"/>
+  <polygon class="cls-1" points="9.5 13.5 13.5 13.5 11.5 16 9.5 13.5"/>
+  <line class="cls-1" x1="11.5" y1="16" x2="11.5" y2="17.5"/>
+  <g id="Frames-24px">
+    <rect class="cls-2" width="24" height="24"/>
+  </g>
+</svg>
