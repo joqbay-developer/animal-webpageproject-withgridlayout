@@ -66,3 +66,16 @@ function topFunction() {
   })
 }
 //script for nav and button to top
+
+
+
+//closeads
+// function cleseAds() {
+//   document.getElementById('ads').style.display = "none";
+// }
+
+// const layout = document.getElementsByClassName('structure-container');
+// function cleseAll() {
+//   document.getElementById('all').style.display = 'none';
+//   layout.className.replace(layout, 'change');
+// }
