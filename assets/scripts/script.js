@@ -1,11 +1,6 @@
 
 const tabcontent = document.getElementsByClassName('tab-content');
 const tablinks = document.getElementsByClassName('tablinks');
-const buttonSaude = document.getElementById('button-saude');
-const buttonTemperamento = document.getElementById('button-temperamento');
-const buttonInteligencia = document.getElementById('button-inteligencia');
-const buttonCuidados = document.getElementById('button-cuidados');
-const buttonCuriosidades = document.getElementById('button-curiosidades');
 
 
 function showDescription(event, catDescription) {
@@ -26,3 +21,48 @@ function showDescription(event, catDescription) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+
+
+
+
+//script for nav and button to top
+var prevScrollpos = window.scrollY;
+
+window.onscroll = function() {
+  scrollFunction();
+  hideNav();
+};
+
+//button top
+let mybutton = document.getElementById('myBtn');
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    mybutton.style.display = 'block';
+  } else {
+    mybutton.style.display = 'none';
+  }
+}
+
+function hideNav() {
+  const currentScrollPos = window.scrollY;
+  if (prevScrollpos > currentScrollPos) {
+    navbar.style.top = '0';
+  } else {
+    navbar.style.top = '-70px';
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+function topFunction() {  
+  window.scroll({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+//script for nav and button to top
